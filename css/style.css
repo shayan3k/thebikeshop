@@ -1,0 +1,55 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.header-section {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(186, 62, 243, 0.609)), to(rgba(230, 7, 7, 0.774)));
+  background: linear-gradient(rgba(186, 62, 243, 0.609), rgba(230, 7, 7, 0.774));
+}
+
+.text-color-1 {
+  color: rgba(187, 103, 255, 0.822) !important;
+}
+
+.text-color-2 {
+  color: rgba(90, 253, 166, 0.685) !important;
+}
+
+.text-color-3 {
+  color: rgba(255, 60, 0, 0.801) !important;
+}
+
+.box-shadow-purpel {
+  -webkit-box-shadow: 10px 10px 25px -2px #f58bf5;
+  box-shadow: 10px 10px 25px -2px #f58bf5;
+}
+
+footer {
+  background: #4b4b4b;
+}
+
+.download-section {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffab10), to(rgba(255, 171, 16, 0.705)));
+  background: linear-gradient(#ffab10, rgba(255, 171, 16, 0.705));
+}
+
+.btn-costume {
+  text-transform: capitalize;
+  background: white;
+  padding: 1rem 1.4rem;
+  color: #a56b00;
+  border-radius: 50px;
+  text-decoration: none !important;
+}
+
+.btn-costume:hover {
+  color: #a56b00;
+}
+
+@media (min-width: 768px) {
+  #main1-section {
+    -webkit-transform: translate(-75px, -150px);
+            transform: translate(-75px, -150px);
+  }
+}
+/*# sourceMappingURL=style.css.map */
